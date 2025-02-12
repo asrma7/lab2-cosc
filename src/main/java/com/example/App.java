@@ -18,7 +18,7 @@ public class App {
     public void init()
     {
         Logger log = LoggerFactory.getLogger(App.class);
-        log.info("Java app started");
+        log.info("Hi, I am from COSC 1209 class");
     }
 
     public String getStatus() {
