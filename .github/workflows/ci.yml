@@ -34,6 +34,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
+        directory: /home/runner/work/lab2-cosc/lab2-cosc
         image: asrma7/demo-app
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
